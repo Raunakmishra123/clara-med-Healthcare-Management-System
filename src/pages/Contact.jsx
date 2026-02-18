@@ -13,7 +13,7 @@ const Contact = () => {
         <img className='w-full md:max-w-[360px]' src={assets.contact_image} alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className=' font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className=' text-gray-500'>IIIT Bhagalpur <br /> Sabour bhagalpur</p>
+          <p className=' text-gray-500'>IIIT Bhagalpur <br /> Sabour, Bhagalpur, Bihar</p>
           <p className=' text-gray-500'>Tel: +91 8402923885 <br /> Email: raunakmishramth20@gmail.com</p>
           <p className=' font-semibold text-lg text-gray-600'>Careers at Claramed</p>
           <p className=' text-gray-500'>Learn more about our teams and job openings.</p>
