@@ -56,7 +56,7 @@ const Login = () => {
         <p className='text-2xl font-semibold'>{state === 'Sign Up' ? 'Create Account' : 'Login'}</p>
         <p>Please {state === 'Sign Up' ? 'sign up' : 'log in'} to book appointment</p>
         {state === 'Sign Up'
-          ? <div className='w-full  '>
+          ? <div className='w-full'>
             <p>Full Name</p>
             <input onChange={(e) => setName(e.target.value)} value={name} className='border border-[#DADADA] rounded w-full p-2 mt-1' type="text" required />
           </div>
