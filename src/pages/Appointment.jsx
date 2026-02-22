@@ -24,7 +24,7 @@ const Appointment = () => {
         setDocInfo(docInfo)
     }
 
-    const getAvailableSolts = async () => {
+    const getAvailableSlots = async () => {
 
         setDocSlots([])
 
