@@ -113,7 +113,7 @@ const MyProfile = () => {
 
                 </div>
             </div>
-            <div className='mt-10'>
+            <div className='mt-8'>
 
                 {isEdit
                     ? <button onClick={updateUserProfileData} className='border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all'>Save information</button>
