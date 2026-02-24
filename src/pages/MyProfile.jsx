@@ -64,7 +64,7 @@ const MyProfile = () => {
                 : <p className='font-medium text-3xl text-[#262626] mt-4'>{userData.name}</p>
             }
 
-            <hr className='bg-[#ADADAD] h-[1px] border-none' />
+            <hr className='bg-[#D0D0D0] h-[1px] border-none' />
 
             <div>
                 <p className='text-gray-700 underline mt-3'>CONTACT INFORMATION</p>
