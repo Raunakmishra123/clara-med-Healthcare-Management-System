@@ -138,7 +138,7 @@ const MyAppointments = () => {
                             <p className='text-[#464646] font-medium mt-1'>Address:</p>
                             <p className=''>{item.docData.address.line1}</p>
                             <p className=''>{item.docData.address.line2}</p>
-                            <p className=' mt-1'><span className='text-sm text-[#3C3C3C] font-medium'>Date & Time:</span> {slotDateFormat(item.slotDate)} |  {item.slotTime}</p>
+                            <p className=' mt-1'><span className='text-sm text-[#3C3C3C] font-semibold'>Date & Time:</span> {slotDateFormat(item.slotDate)} |  {item.slotTime}</p>
                         </div>
                         <div></div>
                         <div className='flex flex-col gap-2 justify-end text-sm text-center'>
